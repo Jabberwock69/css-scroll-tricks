@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(67, 8, 94);
+}
+.box-square{
+    width: 100% !important;
+    float: left;
+    height : 500px;
+    overflow: hidden;
+}
+.box-square img{
+    width: 100%;
+    transition: 7s;
+    -webkit-transition: 7s;
+    -moz-transition: 7s;
+    -ms-transition: 7s;
+    -o-transition: 7s;
+}
+.box-square:hover img{
+    transform: translateY(calc(-100% + 500px));
